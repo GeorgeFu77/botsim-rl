@@ -1,0 +1,20 @@
+{
+  "name": "botsim-rl",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "BTC 5-min direction: offline pretraining with experience replay + chronological holdout.",
+  "scripts": {
+    "download": "node src/data/download-binance.js",
+    "episodes": "node src/data/build-episodes.js",
+    "train": "node src/train.js",
+    "live": "node src/live.js",
+    "score": "node src/lab-status.js",
+    "score:forecaster": "node src/score.js",
+    "status": "node src/lab-status.js",
+    "status:forecaster": "node src/status.js",
+    "lab:replay": "node src/lab-replay.js",
+    "lab:benchmark": "node src/lab-benchmark.js",
+    "test": "node --test src/core/*.test.js"
+  },
+  "license": "MIT"
+}

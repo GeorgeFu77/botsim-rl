@@ -1,0 +1,41 @@
+{
+  "featureVersion": 3,
+  "dim": 25,
+  "features": [
+    "moveSoFar",
+    "moveSoFarZ",
+    "elapsedFrac",
+    "moveTimesLeft",
+    "ret1",
+    "ret3",
+    "ret6",
+    "ret12",
+    "ret24",
+    "ret48",
+    "vol6",
+    "vol24",
+    "vol96",
+    "volRatio",
+    "bodyRatio",
+    "upperWick",
+    "lowerWick",
+    "streak",
+    "distHigh96",
+    "distLow96",
+    "rsi14",
+    "accel",
+    "hourSin",
+    "hourCos",
+    "dow"
+  ],
+  "n": 2761341,
+  "offsets": [
+    60,
+    120,
+    180,
+    240
+  ],
+  "from": "2020-01-01T08:05:00.000Z",
+  "to": "2026-07-31T23:55:00.000Z",
+  "baseRate": 0.5015382019098692
+}

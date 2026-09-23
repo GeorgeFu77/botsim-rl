@@ -1,0 +1,5 @@
+node_modules/
+data/klines/
+data/klines1m/
+data/*.bin
+results/
